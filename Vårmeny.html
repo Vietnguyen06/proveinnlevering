@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <meta charset="UTF-8">
+        <title>Viet's hotell</title>
+    </head>
+    <style>
+        body {
+            background-image: url("restaurant-interior.jpeg");
+            background-size: cover;
+            width: 100vw;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+        }
+        .box-1 {
+            float: center;
+            width: 700px;
+            height: 50px;   
+            background-color: black;        
+            opacity: 0.5;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+        }
+        .box-1 li {
+            border: 1px solid black;
+            flex: 1;
+            flex-wrap: wrap;
+        }
+        .box-1 li a {
+            color: white;
+            padding: 10px 10px;
+            text-align: center;
+            transition: 0.5s;
+        }
+        .box-1 li:hover {
+            background-color: white;
+        }
+        .box-1 li a:hover {
+            color: black;
+        }
+        main {
+            display: flex;
+            justify-content: center;
+        }
+        div{
+            background-color: black;
+            opacity: 0.5;
+            width: 45vw;
+            height: 750px;
+        }
+        li {
+            font-size: 1.4rem;
+            opacity: 1;
+        }
+        .Rmeny {
+            text-align: center;
+            color: white;
+        }
+        .beskrivelse {
+            font-size: 0.8rem;
+        }
+        img {
+            width: 10vw;
+            height: 10vh;
+        }
+    </style>
+    <body>
+        <h1>Viet's hotell</h1>
+        <ul class="box-1" type="none">
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="BookRom.html">Book Rom</a></li>
+            <li><a href="Vårmeny.html">Vår Meny</a></li>
+            <li><a href="OmHotellet.html">Om Hotellet</a></li>
+        </ul>
+        <main>
+            <div class="Rmeny">
+                <h2>Forretter</h2>
+
+                <p>Cesar Salat - 100 kr</p>
+                <p class="beskrivelse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolorem est sunt, temporibus quibusdam quae expedita voluptas ducimus fuga molestiae porro, quisquam consequatur, perferendis rem nulla sequi doloremque eveniet dolore.</p>
+                <p>Risotto - 120 kr</p>
+                <p class="beskrivelse">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi perferendis earum facere voluptates magnam nesciunt voluptatibus alias pariatur itaque dolores tempore voluptas, iste quia, repellat, minima perspiciatis dolorem. Sapiente, optio.</p>
+
+                <h2>Hovedretter</h2>
+
+                <p>Pasta Carbonara - 190 kr</p>
+                <img class="Carbonara"src="spaghetti-carbonara-.jpeg" alt="Pasta Carbonara">
+                <p class="beskrivelse">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque animi deleniti inventore nostrum, doloribus nulla, corrupti dolorem cumque odio, eum impedit ipsum quas et tempora dignissimos rerum totam? Dolorem, excepturi.</p>
+                <p>Pizza - 270 kr</p>
+                <p class="beskrivelse">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae eum architecto in perferendis voluptatem quaerat magni earum molestiae sit officiis praesentium incidunt natus facere, quo, exercitationem ipsam dolor. Dignissimos, quis.</p>
+
+                <h2>Dessert</h2>
+                <p>Tiramisu - 160 kr</p>
+                <p class="beskrivelse">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae eum architecto in perferendis voluptatem quaerat magni earum molestiae sit officiis praesentium incidunt natus facere, quo, exercitationem ipsam dolor. Dignissimos, quis.</p>
+            </div>
+        </main>
+    </body>
+</html>
