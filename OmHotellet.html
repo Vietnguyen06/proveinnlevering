@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <meta charset="UTF-8">
+        <title>Viet's hotell</title>
+    </head>
+    <style>
+        body {
+            background-image: url("hotel-lobby.jpeg");
+            background-size: cover;
+            width: 100vw;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+        }
+        .box-1 {
+            float: center;
+            width: 600px;
+            height: 50px;   
+            background-color: black;        
+            opacity: 0.5;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+        }
+        .box-1 li {
+            border: 1px solid black;
+            flex: 1;
+            flex-wrap: wrap;
+            transition: 0.5s;
+        }
+        .box-1 li a {
+            color: white;
+            padding: 10px 10px;
+            text-align: center;
+        }
+        .box-1 li:hover {
+            background-color: white;
+        }
+        .box-1 li a:hover {
+            color: black;
+        }
+        .omHotell {
+            width: 50vw;
+            height: 600px;
+            display: flex;
+            border: 1px solid black;
+            justify-content: center;
+            background-color: black;
+            opacity: 0.5;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .omHotell p {
+            color: white;
+            font-size: 1.6rem;
+            opacity: 1;
+        }
+    </style>
+    <body>
+        <h1>Viet's hotell</h1>
+        <ul class="box-1" type="none">
+            <li><a href="VietHotell.html">Hjem</a></li>
+            <li><a href="BookRom.html">Book Rom</a></li>
+            <li><a href="Vårmeny.html">Vår Meny</a></li>
+            <li><a href="OmHotellet.html">Om Hotellet</a></li>
+        </ul>
+        <main class="omHotell">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, reiciendis fugit quas quisquam repellat saepe facere minus molestiae fugiat vero. Facilis nobis et tempora quos nemo architecto quia nesciunt explicabo?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam soluta fugit saepe hic corporis ducimus animi impedit quae odit repudiandae nulla officia, in laudantium non beatae cupiditate amet! Obcaecati, quasi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quam autem sit labore cupiditate doloribus laboriosam error perferendis quas quo harum blanditiis sapiente, itaque fuga consequuntur non! Iste, minima esse.</p>
+        </main>
+    </body>
+</html>

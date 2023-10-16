@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <meta charset="UTF-8">
+        <title>Viet's hotell</title>
+    </head>
+    <style>
+        body {
+            background-image: url("sea-beach-and-hotel.jpeg");
+            background-size: cover;
+            width: 100vw;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+        }
+        .box-1 {
+            float: center;
+            width: 600px;
+            height: 50px;   
+            background-color: black;        
+            opacity: 0.5;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+        }
+        .box-1 li {
+            border: 1px solid black;
+            flex: 1;
+            flex-wrap: wrap;
+        }
+        .box-1 li a {
+            color: white;
+            padding: 10px 10px;
+            text-align: center;
+            transition: 0.5s;
+        }
+        .box-1 li:hover {
+            background-color: white;
+        }
+        .box-1 li a:hover {
+            color: black;
+        }
+    </style>
+    <body>
+        <h1>Viet's hotell</h1>
+        <ul class="box-1" type="none">
+            <li><a href="VietHotell.html">Hjem</a></li>
+            <li><a href="BookRom.html">Book Rom</a></li>
+            <li><a href="Vårmeny.html">Vår Meny</a></li>
+            <li><a href="OmHotellet.html">Om Hotellet</a></li>
+        </ul>
+    </body>
+</html>
